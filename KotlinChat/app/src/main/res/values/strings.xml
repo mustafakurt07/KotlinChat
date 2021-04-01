@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">KotlinChat</string>
+    <string name="splash">KurtWidow Chat</string>
+    <string name="forgot">Forgot your Password?</string>
+    <string name="new_user">New User? Register Now</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="top_icon">TOP ICON</string>
+
+</resources>

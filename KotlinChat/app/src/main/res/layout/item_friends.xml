@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/item_friend_pp"
+        android:src="@drawable/defaultuser"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginLeft="8dp" android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/item_friends_name"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" tools:text="User Name"
+        app:layout_constraintStart_toEndOf="@+id/item_friend_pp"
+        android:layout_marginLeft="8dp" android:layout_marginStart="8dp" android:layout_marginTop="16dp"
+        app:layout_constraintTop_toTopOf="parent" android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent" android:layout_marginRight="8dp"
+        app:layout_constraintHorizontal_bias="0.0"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/item_friends_status"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small" tools:text="Status"
+        android:layout_marginTop="8dp" app:layout_constraintTop_toBottomOf="@+id/item_friends_name"
+        app:layout_constraintStart_toEndOf="@+id/item_friend_pp" android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp" android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginRight="8dp" app:layout_constraintHorizontal_bias="0.0"
+        android:layout_marginBottom="8dp" app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.0"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
